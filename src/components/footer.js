@@ -78,19 +78,19 @@ const Footer = () => (
               <span style={{ fontSize: '0.85rem' }}>
                 © {new Date().getFullYear()}, By
                 <a
-                  href="https://www.oriperelman.com"
+                  href="https://portfolio-c3e28.netlify.app"
                   target="_blank"
                   rel="noopener"
-                > Ori Perelman
+                > Oscar
                 </a>
               </span>
             </FooterSection>
             <FooterSection>
-              <StyledLink href="mailto: oriperelman@gmail.com">
+              <StyledLink href="mailto: Oscar@cardoso-devstar.com">
                 <LinkIcon icon={faEnvelope} />
                 <span>Drop a line.</span>
               </StyledLink>
-              <StyledLink href={siteMetadata.author} target="_blank" rel="noopener noreferrer">
+              <StyledLink href={"https://github.com/Cardoso-topdev"} target="_blank" rel="noopener noreferrer">
                 <LinkIcon icon={faGithub} />
                 <span>Source and other projects.</span>
               </StyledLink>
